@@ -21,7 +21,7 @@ h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 36px;
+    padding: 0;
 }
 ul{
     display: flex;
@@ -67,4 +67,15 @@ a{
     color: white;
     border-radius: 8px;
     font-size: 15px;
+}
+
+.fights{
+    display: flex;
+    justify-content: space-around;
+}
+.charles-chandler,
+.charles-dustin,
+.charles-justin{
+    height: 200px;
+    width: 300px;
 }
