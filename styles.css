@@ -49,17 +49,18 @@ a{
     align-items: center;
     padding: 90px;
     flex: 1 0 auto;
+    flex-wrap: wrap;
 }
 .sign-up{
     display: flex;
     flex-direction: column;
     flex-basis: 400px;
-    margin-right: 40px;
+    margin-right: 50px;
 }
 
 .img1{
-    height: 350px;
-    width: 500px;
+    height: 45vh;
+    width: 50vh;
 }
 
 .header-logo{
@@ -118,10 +119,11 @@ a{
     display: flex;
     align-items: center;
     background-color: #3882fe;
-    width: 800px;
     margin: 50px 200px;
     padding: 20px 80px;
     border-radius: 10px;
+    flex-shrink: 1;
+    min-width: 100px;
 }
 .sign-up-text-container{
     display: flex;
